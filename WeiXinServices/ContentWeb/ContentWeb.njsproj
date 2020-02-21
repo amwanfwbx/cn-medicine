@@ -33,7 +33,41 @@
   <ItemGroup>
     <Content Include=".babelrc" />
     <Content Include="public\favicon.ico" />
+    <Content Include="public\images\icon_footer.png" />
+    <Content Include="public\images\icon_footer_link.png" />
+    <Content Include="public\images\icon_intro.png" />
+    <Content Include="public\images\icon_nav_actionSheet.png" />
+    <Content Include="public\images\icon_nav_article.png" />
+    <Content Include="public\images\icon_nav_button.png" />
+    <Content Include="public\images\icon_nav_cell.png" />
+    <Content Include="public\images\icon_nav_dialog.png" />
+    <Content Include="public\images\icon_nav_feedback.png" />
+    <Content Include="public\images\icon_nav_flow.png" />
+    <Content Include="public\images\icon_nav_form.png" />
+    <Content Include="public\images\icon_nav_icons.png" />
+    <Content Include="public\images\icon_nav_layout.png" />
+    <Content Include="public\images\icon_nav_msg.png" />
+    <Content Include="public\images\icon_nav_nav.png" />
+    <Content Include="public\images\icon_nav_panel.png" />
+    <Content Include="public\images\icon_nav_progress.png" />
+    <Content Include="public\images\icon_nav_search.png" />
+    <Content Include="public\images\icon_nav_search_bar.png" />
+    <Content Include="public\images\icon_nav_special.png" />
+    <Content Include="public\images\icon_nav_tab.png" />
+    <Content Include="public\images\icon_nav_toast.png" />
+    <Content Include="public\images\icon_nav_z-index.png" />
+    <Content Include="public\images\icon_nav_zindex.png" />
+    <Content Include="public\images\icon_tabbar.png" />
+    <Content Include="public\images\layers\content.png" />
+    <Content Include="public\images\layers\navigation.png" />
+    <Content Include="public\images\layers\popout.png" />
+    <Content Include="public\images\layers\transparent.gif" />
+    <Content Include="public\images\logo.png" />
+    <Content Include="public\images\pic_160.png" />
+    <Content Include="public\images\pic_article.png" />
+    <Content Include="public\images\vcode.jpg" />
     <Content Include="public\index.html" />
+    <Content Include="src\assets\weui.min.css" />
     <Content Include="src\App.vue" />
     <Content Include="src\components\dict\Index.vue">
       <SubType>Code</SubType>
@@ -41,11 +75,16 @@
     <Content Include="src\components\Home.vue" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\components\searchbar.vue">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="api\" />
     <Folder Include="dist\" />
     <Folder Include="public\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\images\layers\" />
     <Folder Include="src\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\components\" />
@@ -56,6 +95,7 @@
     <Compile Include="api\axios.js" />
     <Compile Include="api\index.js" />
     <Compile Include="api\indexGather.js" />
+    <Compile Include="public\zepto.min.js" />
     <Compile Include="src\main.js" />
     <Compile Include=".postcssrc.js" />
   </ItemGroup>
